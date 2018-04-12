@@ -1,3 +1,13 @@
+/   * Article flex-box */
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+
 section{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 25px 25px 25px 25px;
@@ -36,19 +46,6 @@ nav li a:hover {
     background-color: #111;
 }
 
-/* Article flex-box */
-
-article {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-section {
-    border: solid 1px black;
-
-}
 
 .mugshot {
     display: block;
