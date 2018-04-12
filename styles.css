@@ -34,7 +34,7 @@ article {
 section {
     border: solid 1px black;
 
-
+}
 .mugshot {
     display: block;
     margin-left: auto;
@@ -44,7 +44,7 @@ section {
 .mugshotText {
     text-align: center;
     font-size: 3em;
-
+}
 aside {
     position: fixed;
     bottom: 40%;
