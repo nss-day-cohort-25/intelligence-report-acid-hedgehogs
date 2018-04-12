@@ -13,7 +13,7 @@ article {
 section{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 25px 25px 25px 25px;
-    background-color: #fffdea;
+    background-color: #c0c0c0;
     padding:  15px;
     margin: 5px 5px 5px 5px; 
     width: 350px;
@@ -53,6 +53,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 100%;
 }
 
 .mugshotText {
@@ -64,7 +65,7 @@ nav li a:hover {
 
 
 aside {
-    background-color: #fffdea; 
+    background-color: #c0c0c0; 
     position: fixed;
     bottom: 40%;
     right: 0px;
