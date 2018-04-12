@@ -47,6 +47,7 @@ article {
 
 section {
     border: solid 1px black;
+
 }
 
 .mugshot {
@@ -59,7 +60,9 @@ section {
     text-align: center;
     font-size: 3em;
 
+
 }
+
 
 aside {
     position: fixed;
