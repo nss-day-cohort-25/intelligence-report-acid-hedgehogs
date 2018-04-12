@@ -63,19 +63,17 @@ nav li a:hover {
 
 }
 
-
 aside {
     background-color: #c0c0c0; 
-    position: fixed;
-    bottom: 40%;
-    right: 0px;
+    position: sticky;
+    top: 45%;
     float: right;
-    width: 25%;
+    width: 300px;
     border-left: 10px red ridge;
 }
 
 .news {
-    width: 65%;
+    width: 800px;
     align-self: left;
 }
 
