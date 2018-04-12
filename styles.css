@@ -88,9 +88,14 @@ html{
 }
 
 footer{
+    margin-top: 25px;
     background-color: #333;
     color: white;
     padding-left: 15px;
     letter-spacing: 2px;
+    position: absolute;
+    bottom: auto;
+    right: 0;
+    left: 0;
 }
 
