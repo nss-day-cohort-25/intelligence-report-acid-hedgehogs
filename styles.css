@@ -65,14 +65,16 @@ section {
 
 
 aside {
+    background-color: violet; 
     position: fixed;
     bottom: 40%;
     right: 0px;
     float: right;
-    width: 33%;
+    width: 10%;
     border-left: 10px red ridge;
 }
 
 .news {
     width: 65%;
+    align-self: left;
 }
