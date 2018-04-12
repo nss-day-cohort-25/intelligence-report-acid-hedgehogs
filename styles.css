@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 section{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 25px 25px 25px 25px;
@@ -12,3 +13,64 @@ section{
 h3{
     text-align: center;
 }
+=======
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Article flex-box */
+
+article {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section {
+    border: solid 1px black;
+
+
+.mugshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mugshotText {
+    text-align: center;
+    font-size: 3em;
+
+aside {
+    position: fixed;
+    bottom: 40%;
+    right: 0px;
+    float: right;
+    width: 33%;
+    border-left: 10px red ridge;
+}
+
+.news {
+    width: 65%;
+}
+>>>>>>> e671d19f99d04012cfe5f30ded456ebce75976ef
