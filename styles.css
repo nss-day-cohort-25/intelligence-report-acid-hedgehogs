@@ -1,5 +1,7 @@
 body {
     font-family: 'Oswald', sans-serif;
+    background-image: url(http://footworker.co/wp-content/uploads/ktz/clean-white-brick-wallpaper-wall-mural-muralswallpapercouk-wallpaper-brick-wall-35i7ykshzeqnmyeeqc8hs0.jpg);
+
 }
 
 /* Article flex-box */
@@ -53,6 +55,7 @@ nav li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 100%;
 }
 
 .mugshotText {
