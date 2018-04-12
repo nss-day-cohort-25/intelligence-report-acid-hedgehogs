@@ -21,3 +21,16 @@ nav li a {
 nav li a:hover {
     background-color: #111;
 }
+
+aside {
+    position: fixed;
+    bottom: 40%;
+    right: 0px;
+    float: right;
+    width: 33%;
+    border-left: 10px red ridge;
+}
+
+.news {
+    width: 65%;
+}
