@@ -40,15 +40,11 @@ nav li a:hover {
 
 article {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: column wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: left;
 }
 
-section {
-    border: solid 1px black;
-
-}
 
 .mugshot {
     display: block;
