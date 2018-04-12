@@ -1,3 +1,17 @@
+section{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px 25px 25px 25px;
+    background-color: #fffdea;
+    padding:  15px;
+    margin: 5px 5px 5px 5px; 
+    width: 350px;
+    min-height: 250px;
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -35,6 +49,7 @@ section {
     border: solid 1px black;
 
 }
+
 .mugshot {
     display: block;
     margin-left: auto;
@@ -44,7 +59,11 @@ section {
 .mugshotText {
     text-align: center;
     font-size: 3em;
+
+
 }
+
+
 aside {
     position: fixed;
     bottom: 40%;
