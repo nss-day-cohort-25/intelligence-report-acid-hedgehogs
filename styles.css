@@ -22,6 +22,18 @@ nav li a:hover {
     background-color: #111;
 }
 
+
+
+.mugshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mugshotText {
+    text-align: center;
+    font-size: 3em;
+
 aside {
     position: fixed;
     bottom: 40%;
