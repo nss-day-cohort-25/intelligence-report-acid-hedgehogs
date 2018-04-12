@@ -23,6 +23,7 @@ nav li a:hover {
 }
 
 
+
 .mugshot {
     display: block;
     margin-left: auto;
@@ -32,4 +33,16 @@ nav li a:hover {
 .mugshotText {
     text-align: center;
     font-size: 3em;
+
+aside {
+    position: fixed;
+    bottom: 40%;
+    right: 0px;
+    float: right;
+    width: 33%;
+    border-left: 10px red ridge;
+}
+
+.news {
+    width: 65%;
 }
