@@ -1,3 +1,7 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Article flex-box */
 
 article {
@@ -6,8 +10,6 @@ article {
     justify-content: space-evenly;
     align-items: center;
 }
-
-
 section{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 25px 25px 25px 25px;
@@ -62,12 +64,12 @@ nav li a:hover {
 
 
 aside {
-    background-color: violet; 
+    background-color: #fffdea; 
     position: fixed;
     bottom: 40%;
     right: 0px;
     float: right;
-    width: 10%;
+    width: 25%;
     border-left: 10px red ridge;
 }
 
@@ -76,6 +78,10 @@ aside {
     align-self: left;
 }
 
+h3,
+h1 {
+    font-family: 'New Rocker', cursive;
+}
 html{
     background-image: url(http://footworker.co/wp-content/uploads/ktz/clean-white-brick-wallpaper-wall-mural-muralswallpapercouk-wallpaper-brick-wall-35i7ykshzeqnmyeeqc8hs0.jpg);
 }
