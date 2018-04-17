@@ -6,19 +6,19 @@ const fragment = document.createDocumentFragment()
 
 const executiveDOMBuilder = () => {
 	const topRow = document.createElement('div')
-	topRow.classList = 'row'
+	topRow.classList = execSumDB.classes[0]
 	const botRow = document.createElement('div')
-	botRow.classList = 'row'
+	botRow.classList = execSumDB.classes[0]
 	{//create the associates section
 		//create HTML elements
 
 		//Create the section and class for bootstrap
 		const assSection = document.createElement('section')
-		assSection.classList = 'col-sm'
+		assSection.classList = execSumDB.classes[1]
 
 		//create the "Known Associates" heading
 		const assH3 = document.createElement('h3')
-		assH3.textContent = 'Known Associates'
+		assH3.textContent = execSumDB.associates[0]
         
 		//add the H3 to the section
 		assSection.appendChild(assH3)
@@ -46,11 +46,11 @@ const executiveDOMBuilder = () => {
 
 		//create the section and class for bootstrap
 		const aliSection = document.createElement('section')
-		aliSection.classList = 'col-sm'
+		aliSection.classList = execSumDB.classes[1]
 
 		//create the "Aliases" heading
 		const aliasesH3 = document.createElement('h3')
-		aliasesH3.textContent = 'Known Aliases'
+		aliasesH3.textContent = execSumDB.aliases[0]
         
 		//add the H3 to the section
 		aliSection.appendChild(aliasesH3)
@@ -73,11 +73,11 @@ const executiveDOMBuilder = () => {
 
 		//create the section and class for bootstrap
 		const oriSection = document.createElement('section')
-		oriSection.classList = 'col-sm'
+		oriSection.classList = execSumDB.classes[1]
 
 		//create the "Country of Origin" heading
 		const oriH3 = document.createElement('h3')
-		oriH3.textContent = 'Country of Origin'
+		oriH3.textContent = execSumDB.country[0]
 
 		//add the h3 to the section
 		oriSection.appendChild(oriH3)
