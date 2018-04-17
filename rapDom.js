@@ -9,7 +9,7 @@ const rapDomBuilder = () => {
     botRow.classList = "row"
     
     const conSection = document.createElement("section")
-    conSection.class = "col-sm"
+    conSection.classList = "col-sm"
 
     const conH3 = document.createElement("h3")
     conH3.textContent = "Known Convictions"
