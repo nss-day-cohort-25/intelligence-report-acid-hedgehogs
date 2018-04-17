@@ -1,2 +1,2 @@
 
-const financialDatabase = JSON.parse(localStorage.getItem("financialDatabase"))
+JSON.parse(localStorage.getItem("financialDatabase"))
