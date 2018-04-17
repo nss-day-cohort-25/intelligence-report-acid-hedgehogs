@@ -1,9 +1,6 @@
 const financialDatabase = {}
 
-financialDatabase.bankAccounts = []
-financialDatabase.businesses = []
-financialDatabase.blackMailed = []
-financialDatabase.laundered = []
+financialDatabase.financials = []
 
 const bankAccounts = {
     name: "Bank Accounts", 
@@ -21,3 +18,10 @@ const laundered = {
     name: "Money Laundering Businesses",
     listOf: ["Fabulous Nails Inc", "Wash-o-matic Laundry"]
 }
+
+financialDatabase.financials.push(bankAccounts, businesses, blackMailed, laundered)
+
+localStorage.setItem(
+    "financialDatabase",
+    JSON.stringify(financialDatabase)
+)
