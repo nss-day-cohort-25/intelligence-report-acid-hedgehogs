@@ -25,7 +25,7 @@ const executiveDOMBuilder = () => {
 
 		//loop through elements in the database to create the UL for associates
 		let assList = document.createElement('ul')
-		for (let i = 0; i < execSumDB.associates.length; i++) {
+		for (let i = 1; i < execSumDB.associates.length; i++) {
 			//for each item in the list, create a new LI and set the textContent to the item value
 			let assListElement = document.createElement('li')
 			assListElement.textContent = execSumDB.associates[i]
@@ -57,7 +57,7 @@ const executiveDOMBuilder = () => {
         
 		//loop through elements to create the UL
 		let aliList = document.createElement('ul')
-		for (let i = 0; i < execSumDB.aliases.length; i++) {
+		for (let i = 1; i < execSumDB.aliases.length; i++) {
 			let aliListElement = document.createElement('li')
 			aliListElement.textContent = execSumDB.aliases[i]
 			aliList.appendChild(aliListElement)            
@@ -84,7 +84,7 @@ const executiveDOMBuilder = () => {
 
 		//loop through elements to create the UL
 		let oriList = document.createElement('ul')
-		for (let i = 0; i < execSumDB.country.length; i++) {
+		for (let i = 1; i < execSumDB.country.length; i++) {
 			let oriListElement = document.createElement('li')
 			oriListElement.textContent = execSumDB.country[i]
 			oriList.appendChild(oriListElement)
