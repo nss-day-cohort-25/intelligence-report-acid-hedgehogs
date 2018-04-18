@@ -19,4 +19,5 @@ const saveDatabase = (databaseObject, localStorageKey) => {
 	localStorage.setItem(localStorageKey, stringifiedDatabase)
 }
 
+
 saveDatabase(execSumDB, 'ExecSum')

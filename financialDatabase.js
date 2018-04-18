@@ -1,7 +1,7 @@
 const financialDatabase = {}
 
 financialDatabase.financials = []
-financialDatabase.financialClasses = []
+
 
 const financialClasses = {
     divClasses: "row",

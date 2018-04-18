@@ -13,6 +13,7 @@ rapDatabase.victims.push("Adam Mason", "Alex Burton", "Silas Mcconnell", "NSSIA 
 rapDatabase.crimes.push("Jail Break", "Violation of Gentlemans Code", "Environmental Violation")
 
 
+
 // rapDatabase.info.push(
 //     {
 //        name: "Known Convictions" ,
