@@ -1,9 +1,18 @@
 const rapBodyRef = document.querySelector("#rapBody")
 
+
+const divMaker = (divClass) => {
+    const newDiv = document.createElement ("div");
+    newDiv.classList = divClass;
+    return newDiv
+}
+
+
+
 const fragment = document.createDocumentFragment()
 
 const rapDomBuilder = () => {
-    const topRow = document.createElement("div")
+    const topRow = divMaker("div")
     topRow.classList = "row"
     const botRow = document.createElement('div')
     botRow.classList = "row"
