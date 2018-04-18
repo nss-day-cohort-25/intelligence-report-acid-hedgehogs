@@ -2,7 +2,6 @@ const financialDatabase = {}
 
 financialDatabase.financials = []
 
-
 const financialClasses = {
     divClasses: "row",
     sectionClasses: "col-sm"
