@@ -21,7 +21,7 @@ const countryOfOrigin = {
 	listContent: ['United Kingdom']
 }
 
-groupDB.execSum.push(knownAliases, knownAssociates, countryOfOrigin)
+groupDB.execSum.push(knownAssociates, knownAliases, countryOfOrigin)
 
 
 //save the database
