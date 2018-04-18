@@ -3,3 +3,6 @@ const h3Factory = (textInput) => {
 	h3.textContent = textInput
 	return h3
 }
+
+//to call, this is the example:
+//const h3 = h3Factory(groupDB.execSum[1]['name'])
